@@ -72,6 +72,10 @@ function createCactus()
         {
             // --------------------- Game Over -----------------------------
             clearInterval(leftInterval);
+            document.body.style.backgroundImage = "url('images/GameOver.gif')";
+            document.body.style.backgroundSize = '50%';
+            document.body.style.backgroundPosition = 'center';
+            document.body.style.backgroundRepeat = 'no-repeat';
             document.body.innerHTML = '<h1 class="game-over">Game Over</h1>';
         }
         else
