@@ -1,7 +1,11 @@
+body {
+    background-color: white;
+}
+
 .coiote {
     width: 60px;
     height: 60px;
-    background: rgb(99, 14, 14);
+    background-image: url(images/coyote.gif);
     position: absolute;
     bottom: 10px;
     left: 10px;
@@ -9,7 +13,7 @@
 
 .papaleguas {
     width: 60px;
-    height: 60px;
+    height: 50px;
     background: blue;
     position: absolute;
     bottom: 10px;
