@@ -22,4 +22,5 @@
     height: 60px;
     bottom: 10px;
     background: red;
+    overflow: hidden;
 }
